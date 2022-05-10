@@ -32,7 +32,7 @@ int main()
 		file1.close(); // закрываем
 		file2.close();
 	}
-	else
+	else // если что не так - мы не вилноваты
 	{
 		cout << "Can not open file ";
 	}
